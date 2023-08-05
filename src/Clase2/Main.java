@@ -29,7 +29,8 @@ public class Main {
         resultado = 10;
 
         // El metodo inserta la variable deseada (si se puede castear) en el lugar del %s
-        stringSalida = String.format("El resultado de la cuenta es: %s!", resultado);
+        // Importante destacar que el metodo devuelve un String
+        stringSalida = String.format("El resultado de la cuenta es: %s", resultado);
         System.out.println(stringSalida);
     }
 }
