@@ -1,0 +1,14 @@
+Shortcuts
+- ctrl + Z: deshacer
+- ctrl + Y: rehacer 
+- ctrl + D: duplicar selección o línea actual
+- ctrl + shift + flechita arriba/abajo: arrastrar/mover selección o línea actual
+- ctrl + alt + S: abrir Settings 
+
+Aclaración: línea actual == línea donde se encuentra el cursor 
+
+Para cambiar los shortcuts van a Settings->Keymap y seleccionan el que quieren cambiar.
+
+Configuraciones recomendadas
+- En Settings->Actions on Save marcar Reformat Code
+- Activar el zoom con ctrl + wheel (ruedita del mouse)
