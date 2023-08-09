@@ -1,14 +1,21 @@
-Shortcuts
+*Algunos shortcuts*
 - ctrl + Z: deshacer
 - ctrl + Y: rehacer 
 - ctrl + D: duplicar selección o línea actual
 - ctrl + shift + flechita arriba/abajo: arrastrar/mover selección o línea actual
-- ctrl + alt + S: abrir Settings 
+- ctrl + alt + S: abrir Settings
+- shift + F10: correr/ejecutar programa
+- ctrl + ctrl (mantener apretado) + flechita arriba/abajo: agregar múltiples cursores
+- ctrl + /: comentar selección o línea actual
+- "sout" + enter: System.out.println();
+- "main" + enter: public static void main(String[]args){}
 
-Aclaración: línea actual == línea donde se encuentra el cursor 
 
-Para cambiar los shortcuts van a Settings->Keymap y seleccionan el que quieren cambiar.
+Aclaración: línea actual == línea donde se encuentra el cursor
 
-Configuraciones recomendadas
-- En Settings->Actions on Save marcar Reformat Code
-- Activar el zoom con ctrl + wheel (ruedita del mouse)
+Para cambiar los shortcuts van a "Settings->Keymap" y buscan el que quieren cambiar/agregar.
+
+*Configuraciones recomendadas*
+- En "Settings->Actions on Save" marcar "Reformat Code"
+- En "Editor->General" marcar "Change font size with Ctrl + Mouse Wheel in: All editors" para poder hacer zoom con la
+ruedita del mouse

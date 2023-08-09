@@ -1,10 +1,8 @@
 package Clase2;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        // Asignacion de string.
+        // Asignación de string.
         String string = "Hola a todos como estan.";
         String otroString;
 
