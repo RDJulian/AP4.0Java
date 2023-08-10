@@ -10,7 +10,6 @@
 - "sout" + enter: System.out.println();
 - "main" + enter: public static void main(String[]args){}
 
-
 Aclaración: línea actual == línea donde se encuentra el cursor
 
 Para cambiar los shortcuts van a "Settings->Keymap" y buscan el que quieren cambiar/agregar.

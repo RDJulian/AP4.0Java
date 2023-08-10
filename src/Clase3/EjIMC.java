@@ -19,8 +19,8 @@ public class EjIMC {
 //        double altura = teclado.nextDouble();
 //        double pesoIdeal = peso / (Math.pow(altura, 2)); // altura * altura
 //        if (pesoIdeal >= 18.5 && pesoIdeal <= 25.0) {
-//            System.out
-//                    .println("su indice de masa corporal es: " + " " + pesoIdeal + " " + "usted esta en un peso ideal");
+//            System.out.println("su índice de masa corporal es: " + pesoIdeal + ". Usted está en un peso
+//            ideal");
 //        } else {
 //            System.out.println("Usted no esta en su peso ideal");
 //        }
@@ -38,6 +38,9 @@ public class EjIMC {
         if (imc > 25.0) {
             System.out.print("Exceso de valor IMC");
         } else {
+            // si entró acá es porque no se cumple la condición del if,
+            // es decir que el imc es menor o igual a 25.0
+            // no es necesario volver a chequear que se cumpla esa condición
             if (imc >= 18.5) {
                 System.out.print("Valores estables de IMC");
             } else {

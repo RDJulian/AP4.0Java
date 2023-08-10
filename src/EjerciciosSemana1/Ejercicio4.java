@@ -1,4 +1,4 @@
-package Clase2.EjerciciosParaEntregar;
+package EjerciciosSemana1;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Ejercicio4 {
         System.out.print("Ingrese la altura del rectángulo: ");
         double altura = entrada.nextDouble();
         double perimetro = base * 2 + altura * 2;
-        //double perimetro = calcularPerimetro(base, altura);   lo veremos mas adelante
+        //double perimetro = calcularPerimetro(base, altura);   // lo veremos mas adelante (métodos/funciones)
         double area = base * altura;
         System.out.println("El perímetro del rectángulo es: " + perimetro);
         System.out.println("El área del rectángulo es: " + area);
