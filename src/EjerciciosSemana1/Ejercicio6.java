@@ -15,8 +15,8 @@ public class Ejercicio6 {
         int aux = a;    // INTERCAMBIO DE VARIABLES
         a = b;
         b = aux;
-//        a = b;    guarda con esto, se pierde el valor inicial de a y quedan
-//        b = a;    ambas variables con el mismo valor (el valor inicial de b)
+//        a = b;    Cuidado con esto, se pierde el valor inicial de a y quedan
+//        b = a;    ambas variables con el mismo valor (el valor inicial de b).
         System.out.println("A :" + a);
         System.out.println("B :" + b);
         input.close();

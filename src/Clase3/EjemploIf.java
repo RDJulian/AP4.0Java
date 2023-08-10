@@ -15,16 +15,28 @@ public class EjemploIf {
         int numero2 = entrada.nextInt();
 
         if (numero1 > numero2) {
-            int num = 1;    // definiendo una variable en el scope del if, ignorar la warning
+            int num = 1;    // Definiendo una variable dentro del scope del if, ignorar la advertencia.
             System.out.println("El primero es mayor que el segundo");
         } else {
-            // supongamos que queremos diferenciar el caso en que ambos números sean iguales o el primero sea
-            // menor que el segundo, para eso utilizamos un if anidado
+            // Supongamos que queremos diferenciar el caso en que ambos números sean iguales o el primero sea
+            // menor que el segundo, para eso utilizamos un if anidado.
             if (numero1 == numero2) {
                 System.out.println("El primero es igual que el segundo");
             } else System.out.println("El primero es menor que el segundo");
         }
-        // System.out.println(num);     no funciona, num no existe en este scope (del main)
+
+        // La siguiente linea no funciona, num no existe en este scope (del main).
+        // System.out.println(num);
+
+        // Una forma alternativa de escribir las condiciones anteriores:
+        if (numero1 > numero2) {
+            System.out.println("El primero es mayor que el segundo");
+        } else if (numero1 == numero2) {
+            System.out.println("El primero es igual que el segundo");
+        } else {
+            System.out.println("El primero es menor que el segundo");
+        }
+        // Esto es EXACTAMENTE lo mismo que lo anterior a nivel algoritmo.
 
         entrada.close();
     }

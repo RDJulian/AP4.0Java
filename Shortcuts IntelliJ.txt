@@ -1,4 +1,5 @@
 *Algunos shortcuts*
+
 - ctrl + Z: deshacer
 - ctrl + Y: rehacer 
 - ctrl + D: duplicar selección o línea actual
@@ -10,11 +11,11 @@
 - "sout" + enter: System.out.println();
 - "main" + enter: public static void main(String[]args){}
 
-Aclaración: línea actual == línea donde se encuentra el cursor
-
+Aclaración: línea actual == línea donde se encuentra el cursor.
 Para cambiar los shortcuts van a "Settings->Keymap" y buscan el que quieren cambiar/agregar.
 
 *Configuraciones recomendadas*
+
 - En "Settings->Actions on Save" marcar "Reformat Code"
 - En "Editor->General" marcar "Change font size with Ctrl + Mouse Wheel in: All editors" para poder hacer zoom con la
 ruedita del mouse
