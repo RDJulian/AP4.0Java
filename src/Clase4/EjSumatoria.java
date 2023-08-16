@@ -2,7 +2,7 @@ package Clase4;
 
 import java.util.Scanner;
 
-public class Ej4 {
+public class EjSumatoria {
     // Escribir un programa que pida un número entero al
     // usuario y muestre por pantalla la suma de todos
     // los números que lo preceden, incluyendo al número
@@ -26,7 +26,7 @@ public class Ej4 {
         int i = 1;
         while (i <= num) {
             acumulador = acumulador + i;
-            //i++;  ojo con olvidarse esto
+            i++;  // ojo con olvidarse esto
         }
 
         System.out.println("El resultado final es: " + acumulador);
