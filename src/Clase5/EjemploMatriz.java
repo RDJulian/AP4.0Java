@@ -17,11 +17,11 @@ public class EjemploMatriz {
 
         double promedio = 0;
         for (int i = 0; i < notasAlumnos.length; i++) {
-            for (int j = 0; j < notasAlumnos[1].length; j++) {
+            for (int j = 0; j < notasAlumnos[0].length; j++) {
                 promedio = promedio + notasAlumnos[i][j];
             }
         }
         System.out.println(notasAlumnos.length);    // ojo con esto
-        System.out.println(promedio / (notasAlumnos[0].length * notasAlumnos[1].length));
+        System.out.println(promedio / (notasAlumnos.length * notasAlumnos[0].length));
     }
 }
