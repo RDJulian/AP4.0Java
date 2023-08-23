@@ -29,11 +29,11 @@ public class Main {
 //        int numeroHastaElQueConte = contador.contar();
 //        System.out.println("Numero: " + numeroHastaElQueConte);
 
-        Cuadrado miCuadrado = new Cuadrado(22.2);
-        System.out.println(miCuadrado.calcularArea());
-
-        miCuadrado.asignarLongitud(10.78);
-        miCuadrado.mostrarLongitud();
-        System.out.println(miCuadrado.calcularArea());
+//        Cuadrado miCuadrado = new Cuadrado(22.2);
+//        System.out.println(miCuadrado.calcularArea());
+//
+//        miCuadrado.asignarLongitud(10.78);
+//        miCuadrado.mostrarLongitud();
+//        System.out.println(miCuadrado.calcularArea());
     }
 }
