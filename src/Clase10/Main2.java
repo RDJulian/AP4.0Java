@@ -1,8 +1,6 @@
 package Clase10;
 
-import Clase10.Animales.Animal;
-import Clase10.Animales.Leon;
-import Clase10.Animales.Perro;
+import Clase10.Animales.*;
 
 public class Main2 {
     public static void main(String[] args) {
